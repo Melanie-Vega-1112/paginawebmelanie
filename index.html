@@ -8,32 +8,30 @@ table {
 }
 
 th, td {
-  text-align: left;
   padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
 
-tr:nth-child(even){background-color: #f2f2f2}
-
-th {
-  background-color: #04AA6D;
-  color: white;
-}
+tr:hover {background-color: coral;}
 </style>
 </head>
 <body>
 
-<h2>Colored Table Header</h2>
+<h2>Hoverable Table</h2>
+
+<p>Move the mouse over the table rows to see the effect.</p>
 
 <table>
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-    <th>Savings</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Points</th>
   </tr>
   <tr>
     <td>Melanie</td>
     <td>Vega</td>
-    <td>4-I</td>
+    <td>Renteria</td>
   </tr>
   <tr>
     <td>Lois</td>
@@ -49,11 +47,10 @@ th {
     <td>Cleveland</td>
     <td>Brown</td>
     <td>$250</td>
-</tr>
+  </tr>
 </table>
 
 </body>
 </html>
-
 
 
